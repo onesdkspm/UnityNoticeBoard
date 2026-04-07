@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityNoticeBoard",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNoticeBoard/2.0.0-dev-1406724/UnityNoticeBoard.xcframework.zip",
-            checksum: "f4584e86397e240bd05035145e8de8410fd992d344e793275e1a0a8e1a93ceb0"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNoticeBoard/2.0.0-dev-1417130/UnityNoticeBoard.xcframework.zip",
+            checksum: "6076b699d39c561edc4f8337620668d3c701ada69aa9b2c1e5b8347985321f9a"
         )
     ]
 )
