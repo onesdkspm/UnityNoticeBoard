@@ -11,8 +11,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/AOUnityWebBridge.git", branch: "develop"),
-        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", branch: "develop"),
+        .package(url: "https://github.com/onesdkspm/AOUnityWebBridge.git", from: "2.0.2"),
+        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", from: "2.0.2"),
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
         .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
     ],
@@ -38,8 +38,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityNoticeBoard",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNoticeBoard/1.5.0-dev-1473188/UnityNoticeBoard.xcframework.zip",
-            checksum: "c066a6e2b53056c05f8ebca4219b677849a839ce88c27acabb19ffa85c768dc8"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNoticeBoard/1.5.0-dev-1480222/UnityNoticeBoard.xcframework.zip",
+            checksum: "8c90e0840cc29845bcb73d482a30e30e149bfc824713bf4f54201ff565028081"
         )
     ]
 )
